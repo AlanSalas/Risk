@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "RiskManagment",
+    "description": "RiskManagment app to handle audits and surveys.",
+    "slug": "riskmanagment",
+    "privacy": "unlisted",
+    "sdkVersion": "33.0.0",
+    "platforms": ["ios", "android"],
+    "version": "3.0.9",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#212121"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "mx.risksolutions.riskmanagementsolutions",
+      "buildNumber": "1.0.1"
+    },
+    "android": {
+      "package": "mx.risksolutions.riskmanagementsolutions",
+      "permissions": [],
+      "versionCode": 4
+    }
+  }
+}
